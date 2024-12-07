@@ -1,0 +1,85 @@
+.btn-primary {
+    padding: 1rem 2rem;
+    background-color: var(--Deep-Blue);
+    color: #FFF;
+    border-radius: .8rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: background .3s ease;
+}
+
+.btn-primary:hover {
+    background: rgba(24, 50, 223, 0.5);
+}
+
+.btn-primary.lg {
+    padding: 1.4rem 2.4rem;
+    
+}
+
+.btn-primary.white {
+    background-color: #FFF;
+    color: var(--Deep-Blue);
+    transition: background .3s ease;
+}
+
+.btn-primary.white.lg:hover {
+    background: rgba(24, 50, 223, 0.1);
+}
+
+.item-sound {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    border-bottom: 1px solid #EEE;
+}
+
+.item-sound p {
+    font-size: 1.6rem;
+    color: var(--Description-Dark);
+}
+
+.item-sound .is-01 {
+    display: flex;
+    align-items: center;
+    gap: 4.7rem;
+}
+
+.item-sound .is-01 .is-01-left img {
+    max-width: 3.4rem;
+}
+
+.item-sound .is-01 .is-01-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-sound .is-01 .is-01-right p {
+    font-weight: 500;
+    color: var(--Dark-Blue);
+}
+
+.item-sound .is-01 .is-01-right span {
+    color: var(--Description-Dark);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.item-sound .is-02 {
+    max-width: 23rem;
+}
+
+.item-sound .is-04 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.item-sound .is-04 button img {
+    max-width: 2.4rem;
+}
+
+@media(max-width: 768px) {}
