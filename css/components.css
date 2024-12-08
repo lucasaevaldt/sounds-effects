@@ -82,4 +82,81 @@
     max-width: 2.4rem;
 }
 
+.sound-category-item {
+    padding: 4.3rem 4.7rem;
+    color: #FFF;
+    background-image: url(/imgs/category-musical.svg);
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600
+
+}
+
+.wu-item .wu-item-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.wu-item .wu-item-01 img {
+    max-width: 5.6rem;
+    margin-bottom: 2.1rem;
+}
+
+.wu-item .wu-item-01 h6 {
+    font-size: 1.8rem;
+    color: var(--Dark-Blue);
+    letter-spacing: -0.9px;
+    line-height: 172%
+}
+
+.wu-item .wu-item-01 p {
+    color: var(--Description-Dark);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 172%;
+    max-width: 24.6rem;
+}
+
+.testimonials-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 2rem 3rem 2rem;
+    border: 1px solid #EEE;
+    border-radius: 0.8rem;
+    max-width: 30.5rem;
+}
+
+.testimonials-item  p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--Description-Dark);
+    line-height: 172%;
+}
+
+.testimonials-item .img-quotes {
+    max-width: 4rem;
+}
+
+.testimonials-item .img-profile {
+    max-width: 7rem;
+}
+
+.testimonials-item .testimonials-name {
+    font-size: 1.8rem;
+    color: var(--Dark-Blue);
+    font-weight: 600;
+    line-height: 172%;
+    letter-spacing: -0.9px;
+}
+
+.testimonials-item span {
+    color: var(--Description-Light);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 172%;
+}
+
+
 @media(max-width: 768px) {}
