@@ -41,6 +41,10 @@ header nav ul {
     gap: 3.6rem;
 }
 
+header nav ul li:last-child {
+    text-transform: uppercase;
+}
+
 header nav ul li a {
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
@@ -52,6 +56,7 @@ header nav ul li a {
 header nav ul li a:hover {
     opacity: 0.6;
 }
+
 
 .s-hero {
     padding-top: 9.5rem;
@@ -121,3 +126,114 @@ header nav ul li a:hover {
 .s-hero .container p .popular-sounds:hover {
     opacity: 0.6;
 }
+
+.s-logo-strip {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    background-color: #FAFAFA;
+}
+
+.s-logo-strip .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.s-logo-strip .container h6 {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    color: var(--Dark-Blue);
+}
+
+.s-logo-strip .container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-best-se {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.s-best-se .container h4 {
+    margin-bottom: 3rem;
+    
+}
+
+.s-best-se .container ul {
+    margin: 2rem 0;
+}
+
+.s-best-se .container a {
+    color: var(--Deep-Blue);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.s-categories {
+    padding: 6rem 0;
+}
+
+.s-categories .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.s-categories .container ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.s-categories .container a {
+    color: var(--Deep-Blue);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.s-why-us {
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+}
+
+.s-why-us .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-why-us .container .why-us-left {
+    max-width: 33.7rem;
+}
+
+.s-why-us .container .why-us-left p {
+    color: var(--Brave-Yellow);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.s-why-us .container .why-us-right {
+    
+}
+
+.s-why-us .container .why-us-right ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 11rem;
+    row-gap: 5.4rem;
+}
+
+.s-why-us .container .why-us-right ul li {
+    max-width: 24.6rem;
+}
+
+

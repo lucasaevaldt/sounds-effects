@@ -83,13 +83,24 @@
 }
 
 .sound-category-item {
-    padding: 4.3rem 4.7rem;
-    color: #FFF;
-    background-image: url(/imgs/category-musical.svg);
-    border-radius: 0.8rem;
-    font-size: 1.8rem;
-    font-weight: 600
+    position: relative;
+    display: inline-block;
+}
 
+.sound-category-item img {
+    border-radius: 0.8rem;
+    display: block;
+}
+
+.sound-category-item span {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
 }
 
 .wu-item .wu-item-01 {
